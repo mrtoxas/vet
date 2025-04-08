@@ -1,9 +1,9 @@
-import { Button } from "antd";
+import Button from "./ui/button";
 
 export const CabinetApp = () => {
   return (
     <div>
-      <Button type="primary">Primary Button</Button>
+      <Button type="primary">Red Button</Button>
     </div>
   );
 };

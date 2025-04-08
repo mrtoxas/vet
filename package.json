@@ -10,15 +10,22 @@
   },
   "dependencies": {
     "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@astrojs/cloudflare": "^12.4.0",
     "@astrojs/react": "^4.2.3",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.1",
     "antd": "^5.24.6",
     "astro": "^5.6.1",
     "react": "^19.1.0",
-    "react-dom": "^19.1.0"
+    "react-dom": "^19.1.0",
+    "zustand": "^5.0.3"
   },
   "devDependencies": {
-    "@vite-pwa/astro": "^1.0.0"
+    "@vite-pwa/astro": "^1.0.0",
+    "prettier": "^3.5.3",
+    "prettier-plugin-astro": "^0.14.1",
+    "prisma": "^6.5.0"
   }
 }
